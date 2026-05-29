@@ -15,14 +15,14 @@ const testimonials: Testimonial[] = [
     role: 'CTO',
     company: 'HealthCare Digital Group',
     text:
-      'Working with Diego was a game-changer for our EHR implementation. He identified gaps our team had missed for months and delivered a requirements document that our developers called the most comprehensive they'd ever seen.',
+      "Working with Diego was a game-changer for our EHR implementation. He identified gaps our team had missed for months and delivered a requirements document that our developers called the most comprehensive they'd ever seen.",
   },
   {
     name: 'Amanda Chen',
     role: 'Project Director',
     company: 'Nexus Consulting Group',
     text:
-      'Diego's attention to detail, structured thinking, and ability to ask the right questions make him an invaluable analyst. Every project he touches delivers measurable ROI.',
+      "Diego's attention to detail, structured thinking, and ability to ask the right questions make him an invaluable analyst. Every project he touches delivers measurable ROI.",
   },
 ];
 
@@ -61,7 +61,7 @@ export default function Testimonials() {
                 className="absolute top-6 right-6 w-8 h-8 text-blue-500/20"
               />
               <p className="text-slate-300 text-sm leading-relaxed italic">
-                "{t.text}"
+                &ldquo;{t.text}&rdquo;
               </p>
               <div className="flex items-center gap-3 mt-auto pt-4 border-t border-slate-700/50">
                 <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
